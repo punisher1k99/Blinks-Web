@@ -1,0 +1,46 @@
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    align-items: center;
+}
+.red{
+    background-color: red;
+    height: 300px;
+    margin-left: 50px;
+    /* margin-right: 50px; */
+    width: 100%;
+}
+.green{
+    background-color: green;
+    height: 300px;
+    width: 100%;
+    margin-left: 50px;
+    /* margin-right: 50px; */
+}
+.blue{
+    background-color: blue;
+    height: 300px;
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+@media screen and (max-width: 540px) {
+   .main{
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+   }
+   .red{
+    margin-bottom: 10px;
+    margin-right: 50px;
+   }
+   .green{
+    margin-right: 50px;
+    margin-bottom: 10px;
+   }
+   .blue{
+    margin-bottom: 10px;
+   }
+    
+}
