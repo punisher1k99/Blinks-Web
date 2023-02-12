@@ -1,0 +1,96 @@
+.main{
+    margin: -8px;
+    background-color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.topbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainbody{
+    display: flex;
+}
+.image1{
+    height: 45vh;
+}
+.left{
+    margin-left: 20px;
+}
+.right{
+    margin-left: 20px;
+    margin-right: 26px;
+}
+.left1{
+    margin-bottom: 40px;
+    background-color: white;
+}
+.right1{
+    background-color: white;
+}
+.heading2{
+    margin-left: 10px;
+}
+.des{
+    margin-left: 10px;
+}
+.para{
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+.para1{
+    margin-right: 10px;
+}
+.readmore{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 540px) {
+    .mainbody{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .heading1{
+        font-size: 10px;
+    }
+    .tagline{
+        font-size: 10px;
+    }
+    .image1{
+        height: 100px;
+    }
+    .topbar{
+        justify-content: center;
+    }
+    .left{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .heading2{
+        font-size: 10px;
+    }
+    .des{
+        font-size: 7px;
+    }
+    .para{
+        font-size: 6px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        /* margin-right: 250px; */
+    }
+    .right{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .image2{
+        height: 200px;
+    }
+    .readmore{
+        /* height: 10px; */
+        font-size: 5px;
+    }
+    .para1{
+        padding-bottom: 10px;
+    }
+}
